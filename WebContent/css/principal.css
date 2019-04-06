@@ -1,0 +1,174 @@
+@CHARSET "UTF-8";
+
+*{font-family: Arial, Helvetica, sans-serif;
+ box-sizing: border-box;}
+ 
+ body{
+   margin: 0;
+   font-famiy: Arial, Helvetica, sans-serif;
+   background-size: cover;
+}
+
+.cabecalho{
+	overflow:hidden;/*esconde scroll e permite que o background color preencha toda a div */
+	background-color: black;
+	text-align: center;
+	display: inline-block;
+	width: 1600px;
+}
+
+.login {
+    
+	background-color: black;
+	color: #1267fb;
+	display: inline-block;
+	float: right;
+	height: 125px;
+	padding: 10px 28px;
+	
+	
+}
+
+.login a {
+	text-decoration: none;
+	color: white;
+}
+
+.login a:hover {
+	color: #1267fb;
+}
+
+
+.menu-principal {
+	background-color: black;
+	text-align: center;
+	display: inline-block;
+}
+
+.menu-principal a{
+	color: 	white;
+	padding: 16px 68px; /*Espaço entre as bordas e o conteúdo*/
+	display: inline-block; /*Alinha os links na mesma linha com o espaço entre as células */
+	text-decoration: none;
+}
+
+.menu-principal a:hover {
+	color: #1267fb;
+}
+
+.pesquisa {
+	background-color: #D3D3D3;
+	height: 60px;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+}
+
+#empresa {
+	float: left;
+	font-size: 25px;
+	color: black;
+	padding: 5px 20px 5px 20px;
+}
+
+#search {
+	padding: 5px 10px 5px 10px;
+}
+
+.btn {
+	padding: 5px 10px 5px 5px;
+}
+
+
+.conteudoPrincipal {
+	background-color: #ddd;
+	padding: 10px 50px 10px 50px;
+	height: 560px;
+}	
+	img {
+	max-widht: 75%;
+	max-height: 80%;
+	widht: auto;
+	height:auto;
+}
+	
+.conteudoLogin {
+	background-color: #ddd;
+	padding: 10px 50px 10px 50px;
+	height: 560px;
+	text-align: center;
+	
+}	
+
+.conteudoCadastro {
+	background-color: #ddd;
+	padding: 10px 50px 10px 50px;
+	height: 560px;
+	text-align: center;
+}
+
+.conteudoCategorias {
+		background-color: #ddd;
+	padding: 10px 50px 10px 50px;
+	height: 560px;
+}	
+
+
+.conteudoComprar {
+		background-color: #ddd;
+	padding: 10px 50px 10px 50px;
+	height: 560px;
+}	
+
+.conteudoEmpresa {
+	background-color: #ddd;
+	padding: 10px 50px 10px 50px;
+	text-align: center;
+	height: 560px;
+	font-size: 25px;
+
+}	
+
+
+.conteudoProdutos {
+	background-color: #ddd;
+	padding: 10px 50px 10px 50px;
+	height: auto;
+}	
+
+#produtos {
+	max-widht: 75%;
+	max-height: 65%;
+	widht: auto;
+	height:auto;
+}
+
+.conteudoCompras {
+	background-color: #ddd;
+	padding: 45px 50px 20px 100px;
+	height: 560px;
+	text-align: center;
+}		
+
+#compras {
+	float: left;
+	max-widht: 75%;
+	max-height: 95%;
+	widht: auto;
+	height:auto;
+}
+
+.rodape {
+	background-color: #D3D3D3;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	
+}
+
+#icons {
+	height: 25px;
+	
+}
+
+
+
+
